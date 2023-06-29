@@ -7,7 +7,7 @@
 
 ## Application Description
 
-This repository contains programs written for the python for everybody track taught by Dr. Chuck Severance at [University of Michigan]([https://www.holbertonschool.com/](https://www.coursera.org/specializations/python?skipBrowseRedirect=true).
+This repository contains programs written for the python for everybody track taught by Dr. Chuck Severance at [University of Michigan](https://www.coursera.org/specializations/python?skipBrowseRedirect=true).
 
 ## Technologies
 * Python
