@@ -10,7 +10,7 @@
 This repository contains programs written for the python for everybody track course by Dr. Charles Severance at [University of Michigan](https://www.coursera.org/specializations/python?skipBrowseRedirect=true).
 
 ## Technologies
-* Python
+* Python 3
 
 
 
