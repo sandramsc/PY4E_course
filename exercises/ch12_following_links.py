@@ -1,4 +1,4 @@
-#Use urllib to retrieve the total number of paragraphs
+#Follow a link, print the next link based on index
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
@@ -22,7 +22,7 @@ for _ in range(count):
         if len(tags) == 0:
              print("No links found.")
              break
-
+        # Ensures the starting position does not exceed the length of the tags
         start_pos = start_pos % len(tags)
 
         # Gets the next link
