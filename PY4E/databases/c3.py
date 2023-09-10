@@ -28,7 +28,6 @@ conn.commit()
 
 # https://www.sqlite.org/lang_select.html
 sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 10'
-#sqlstr = "SELECT count, SUBSTR(org, INSTR(org, '@') + 1) AS domain, SUM(count) AS domain_count FROM Counts GROUP BY domain ORDER BY domain_count DESC"
 for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])
 
